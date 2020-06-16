@@ -1,6 +1,17 @@
 
 import unittest
 
+inputan = int(input("Masukan input:"))
+
+ if inputan >= 21 :
+     print("DEWASA")
+ elif inputan >= 13 :
+     print("REMAJA")
+ elif inputan >= 9 :
+    print("BIMBINGAN ORANG TUA")
+ elif inputan < 9 :
+     print("SEMUA USIA")
+     
 class TestStringMethods(unittest.TestCase):
 
     def test_upper(self):
